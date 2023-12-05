@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>registrstion form</title>
+        <style>
+           
+            form {
+                
+                background: #90dde8;
+                width: 500px;
+                margin: 40px 500px ;
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3 style="text-align: center;">Registeration form</h3>
+    <form action="D:\visual studio codes\hari.txt" method="post">
+        <label for="name"> candidate name:</label><br>
+        <input type="text" id="name" value="first name">
+        <input type="text" id="name" value="last name"><br>
+        <br>
+        <label for="phno">phone number:</label>
+        <input type="text" id="phno" value="" maxlength="10">
+        <br><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" value="" name="email">
+        <br><br>
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob" value="date">
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br><br>
+        <label for="address">address:</label>
+        <input type="text" id="address" value="address 1">
+        <input type="text" id="address" value="address 2">
+        <br><br>
+        <label for="postalcode">postalcode:</label>
+        <input type="text" id="postalcode">
+        <label>country:</label>
+        <select name="select">
+            <option></option>
+            <option>india</option>
+            <option>usa</option>
+            <option>algeria</option>
+            <option>belgium</option>
+            <option>canada</option>
+            <option>china</option>
+            <option>pakistan</option>
+        </select>
+        <br><br>
+        <label for="paswd">create password:</label>
+        <input type="password" id="paswd" name="password" maxlength="8">
+        <br><br>
+        <label for="paswd">conform password:</label>
+        <input type="password" id="paswd" name="password" maxlength="8">
+        <br>
+        <br>
+        <button type="button" id="submit"  name="submit" style="margin: 1px 200px; background-color: rgb(129, 232, 121);">register here</button>
+    </form>
+    </body>
+</html>

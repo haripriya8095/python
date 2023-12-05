@@ -1,0 +1,19 @@
+1. What is css
+   ---> Cascading Style Sheets(CSS) is used to format the layout of a webpage.
+   ---> Cascading Style Sheets(CSS) is a style sheet language used for describing the presentation of a document written in markup language such as HTML.
+
+2. How to add css sheets to the html document
+   Css can be added to HTML documents in 3 ways:
+       -->Inline-by using the style attribute inside HTML elements.
+       -->Internal-by using <style> element in the <head> section.
+       -->External-by using a <link> element to link to an external css file.
+
+3. what is DOM
+   The Document Object Model(DOM) is a programming interface for web documents. 
+   It represents the page so that programs can change the document structure, style, and content. 
+   The dom represents the document as nodes and objects that way programming languages can interact with the page.
+
+4. syntax for styling an element
+    
+   required attribute followed with coion and followed by value.
+     ex: color:blue;
